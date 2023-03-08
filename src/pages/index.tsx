@@ -1,5 +1,13 @@
+import styled from 'styled-components';
+
 import { Head } from '@/components';
 import { MainLayout } from '@/layouts';
+
+const Button = styled.div`
+  width: 100px;
+  height: 120px;
+  background-color: blue;
+`;
 
 export default function HomePage() {
   return (
@@ -12,6 +20,8 @@ export default function HomePage() {
             A highly opinionated and complete starter for Next.js projects ready
             to production
           </p>
+          <Button />
+          <Button />
         </section>
       </MainLayout>
     </>
